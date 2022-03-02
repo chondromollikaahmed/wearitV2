@@ -37,9 +37,9 @@ include ("partials/head.php");
 
 							<div class="slick3 gallery-lb">
 								
-								<div class="item-slick3" data-thumb="<?php echo $final['picture'] ?>">
+								<div class="item-slick3" data-thumb="admin/<?php echo $final['picture'] ?>">
 									<div class="wrap-pic-w pos-relative" style="height: 600px">
-										<img src="<?php echo $final['picture'] ?>" alt="IMG-PRODUCT">
+										<img src="admin/<?php echo $final['picture'] ?>" alt="IMG-PRODUCT">
 
 										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="<?php echo $final['picture'] ?>">
 											<i class="fa fa-expand"></i>
